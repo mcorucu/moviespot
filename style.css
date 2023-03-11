@@ -1,0 +1,63 @@
+/*
+Theme Name: MovieSpot
+Theme URI: https://moviespot.mcorucu.com/
+Description: A modern minimalistic movie theme.
+Version: 0.0.1
+Author: mcorucu
+Author URI: mcorucu.com
+*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin: 0;
+}
+
+a {
+  color: #000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col {
+  flex: 1;
+  padding: 0 16px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  .col {
+    flex: none;
+    width: 100%;
+    padding: 0;
+  }
+}
